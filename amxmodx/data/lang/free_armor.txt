@@ -1,0 +1,20 @@
+[en]
+FREE_ARMOR_T = Whether terrorists will spawn with armor.^n0 - disabled^n1 - only with Kevlar^n1 - Kevlar and Helmet
+FREE_ARMOR_T_AMOUNT = Amount of armor that will be set to terrorists
+FREE_ARMOR_CT = Whether counter-terrorists will spawn with armor.^n0 - disabled^n1 - only with Kevlar^n1 - Kevlar and Helmet
+FREE_ARMOR_CT_AMOUNT = Amount of armor that will be set to counter-terrorists
+FREE_ARMOR_BOTS = Whether bots will spawn with armor.^n0 - disabled^n1 - enabled
+
+[es]
+FREE_ARMOR_T = Si dar armadura a los terroristas al revivirse.^n0 - deshabilitado^n1 - solo chaleco antibalas^n2 - chaleco antibalas y casco
+FREE_ARMOR_T_AMOUNT = Cantidad de armadura que se va a dar a los terroristas
+FREE_ARMOR_CT = Si dar armadura a los antiterroristas al revivirse.^n0 - deshabilitado^n1 - solo chaleco antibalas^n2 - chaleco antibalas y casco
+FREE_ARMOR_CT_AMOUNT = Cantidad de armadura que se va a dar a los antiterroristas
+FREE_ARMOR_BOTS = Si dar armadura a los bots.^n0 - deshabilitado^n1 - habilitado
+
+[ru]
+FREE_ARMOR_T = Выдавать броню террористам при возрождении.^n0 - выкл.^n1 - только бронежилет^n1 - бронежилет и каску
+FREE_ARMOR_T_AMOUNT = Количество выдаваемой брони террористам
+FREE_ARMOR_CT = Выдавать броню контр-террористам при возрождении.^n0 - выкл.^n1 - только бронежилет^n1 - бронежилет и каску
+FREE_ARMOR_CT_AMOUNT = Количество выдаваемой брони контр-террористам
+FREE_ARMOR_BOTS = Выдавать броню ботам.^n0 - выкл.^n1 - вкл.
