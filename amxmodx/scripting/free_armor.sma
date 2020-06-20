@@ -8,7 +8,7 @@
 #pragma semicolon 1
 
 public stock const PluginName[] = "Free Armor";
-public stock const PluginVersion[] = "1.0.0";
+public stock const PluginVersion[] = "1.0.1";
 public stock const PluginAuthor[] = "twisterniq";
 public stock const PluginURL[] = "https://github.com/twisterniq/amxx-free-armor";
 public stock const PluginDescription[] = "Adds the possibility to make each player spawn with armor and a helmet.";
@@ -100,6 +100,11 @@ public plugin_init()
 
 @OnSpawnEquip_Post(const id, bool:bAddDefault, bool:bEquipGame)
 {
+	if (!is_user_connected(id))
+	{
+		return;
+	}
+
 	if (!g_iCvar[CVAR_ARMOR_BOTS] && is_user_bot(id))
 	{
 		return;
